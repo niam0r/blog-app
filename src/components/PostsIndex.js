@@ -21,7 +21,6 @@ class PostsIndex extends Component {
     });
   }
 
-
   render() {
     return (
       <div>
