@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { Field, reduxForm } from 'redux-form';
+import { Link } from 'react-router-dom';
 
 class PostsNew extends Component {
   renderField(field) {
@@ -32,11 +32,6 @@ class PostsNew extends Component {
 
     return (
       <div>
-        <div className="text-xs-right">
-          <Link to="/" className="btn btn-primary">
-            Back to index
-          </Link>
-        </div>
         <form onSubmit={handleSubmit(this.onSubmit.bind(this))} >
           <Field
             label="Title"
@@ -54,6 +49,9 @@ class PostsNew extends Component {
             component={this.renderField}
           />
           <button type="submit" className="btn btn-primary">Submit</button>
+          <Link to="/" className="btn btn-danger">
+            Cancel
+          </Link>
         </form>
       </div>
     );
