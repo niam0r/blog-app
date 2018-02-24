@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "blog app buit Redux and React",
   "main": "index.js",
-  "homepage": "https://niam0r-blog.herokuapp.com/",
+  "homepage": "https://blog-niam0r.herokuapp.com/",
   "repository": "git@github.com:niam0r/blog-app.git",
   "scripts": {
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
