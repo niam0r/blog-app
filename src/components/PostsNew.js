@@ -69,7 +69,7 @@ function validate(values) {
     errors.title = "Enter a title that is at least 3 characters";
   }
   if (!values.categories) {
-    errors.categories = "Enter at least one categorie!";
+    errors.categories = "Enter at least one category!";
   }
   if (!values.content) {
     errors.content = "The post is empty!";
