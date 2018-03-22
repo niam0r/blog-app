@@ -85,23 +85,3 @@ export default reduxForm({
 })(
   connect(null, { createPost })(PostsNew)
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
