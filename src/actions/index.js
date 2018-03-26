@@ -29,6 +29,7 @@ export function fetchPost(id) {
 export function createPost(values, callback) {
   const request = axios.post(`${ROOT_URL}/posts${API_KEY}`, values)
     .then(() => callback());
+    // execute the callback we passed to it after POSTing the post
 
   return {
     type: CREATE_POST,
